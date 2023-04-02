@@ -1,0 +1,78 @@
+.AboutPage {
+  display: flex;
+  position: relative;
+  top: -190px;
+  justify-content: center;
+}
+
+.textAbout {
+  width: 700px;
+  position: relative;
+  left: 57.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.textAbout h2 {
+  font-family: "Laviossa RUS";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 117.2%;
+}
+
+.textAbout h4 {
+  margin-top: 16px;
+  font-family: "Laviossa RUS";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 170%;
+}
+
+.imagesAbout {
+  position: relative;
+  left: -9px;
+  top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imagesAbout img:nth-child(1) {
+  width: 520px;
+  height: 300px;
+}
+
+.imageText {
+    width: 300px;
+    height: 70px;
+    background: #1d1d1e;
+    filter: blur(35px);
+    position: relative;
+    top: -60px;
+    left: 220px;  
+}
+
+.imagesAbout img:nth-child(2) {
+    position: relative;
+    z-index: 99;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 270px;
+}
+
+.bgEffectFinger {
+    position: relative;
+    top: -298px;
+    left: 610px;
+}
+
+.bgEffectFinger img {
+    width: 135px;
+    height: 362px;
+}
+

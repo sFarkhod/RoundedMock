@@ -1,0 +1,103 @@
+.Course {
+  position: relative;
+  margin-top: -900px;
+  margin-left: 122px;
+  display: flex;
+  gap: 14px;
+}
+
+.cardCourse {
+  width: 360px;
+  height: 422px;
+  color: transparent;
+  border: 2px solid #ee043b;
+  border-radius: 15px;
+  padding: 19px;
+}
+
+.titleCourse {
+  text-align: left;
+  justify-content: space-between;
+  display: flex;
+  color: white;
+  margin-top: 10px;
+}
+
+.titleCourse h3 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 117.2%;
+  text-align: center;
+}
+
+.tekst {
+  color: white;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.imagesCourse {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.imagesCourse img:nth-child(1) {
+  width: 40px;
+  height: 10px;
+  position: relative;
+  left: 14px;
+}
+
+.imagesCourse img:nth-child(2) {
+  width: 21px;
+  height: 21px;
+}
+
+.courseName {
+  display: flex;
+  color: white;
+  margin-top: -889px;
+  margin-left: 125px;
+  font-size: 40px;
+}
+
+.fingerprintRight {
+  display: flex;
+  margin-top: -102px;
+  width: 80px;
+  height: 425px;
+}
+
+.ellipseRight {
+  display: flex;
+  margin-top: -400px;
+  width: 470px;
+  height: 1000px;
+}
+
+.allCource {
+  background: linear-gradient(
+    87.05deg,
+    #f4013d 17.99%,
+    #f0073e 43%,
+    #f1013b 68.01%,
+    #d90e3c 93.02%
+  );
+  box-shadow: 0px 3px 49px -3px rgba(226, 72, 72, 0.76),
+    inset 0px -4px 0px #8f1919;
+  border-radius: 20px;
+  border: none;
+  margin-top: 27px;
+  width: 266px;
+  height: 75px;
+  font-family: "Laviossa RUS";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 117.2%;
+  /* identical to box height, or 41px */
+
+  color: #ffffff;
+}

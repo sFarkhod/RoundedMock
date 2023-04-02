@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Laviossa RUS;
+  src: url(Components/assets/Laviossa\ RUS-Medium.otf) format(opentype);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --white:#FFFFFF;
+  --background:#0E0E12;
+}
+
+body{
+  background-color: var(--background);
+  color: var(--white);
+  font-family: 'Laviossa RUS';
+  /* min-width: 1350px; */
+}
+
+body #root {
+  overflow: hidden;
+}
+
+i {
+  cursor: pointer;
+}
+
+/* #root {
+  margin:auto;
+  max-width: 1360px;
+  overflow: hidden;
+} */
+
+
+img {
+  width: 100%;
+}

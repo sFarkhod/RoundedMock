@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.contactH1 {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-left: 126px;
+  letter-spacing: 2px;
+  font-size: 39px;
+  margin-top: -411px;
+}
+
+.Contact {
+  display: flex;
+  margin-left: 123px;
+  margin-top: 19px;
+  gap: 13px;
+}
+
+.Contact input {
+  width: 270px;
+  height: 75px;
+  background: #202020;
+  border: 3px solid rgba(255, 255, 255, 0.29);
+  border-radius: 20px;
+}
+
+.Contact button {
+  width: 270px;
+  border: none;
+  background: linear-gradient(
+    87.05deg,
+    #f4013d 17.99%,
+    #f0073e 43%,
+    #f1013b 68.01%,
+    #d90e3c 93.02%
+  );
+  box-shadow: 0px 3px 49px -3px rgba(226, 72, 72, 0.76),
+    inset 0px -4px 0px #8f1919;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 117.2%;
+
+  color: #ffffff;
+}
+
+.Contact input::placeholder {
+    position: relative;
+    left: 17px;
+    font-size: 17px;
+}
+
+.endHr {    
+    margin-top: 106px;
+    background-color: #D31B1B;
+    width: 85rem;
+    height: 2px;
+    border: none;
+}

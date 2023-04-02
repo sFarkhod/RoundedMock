@@ -1,0 +1,71 @@
+.bgProf {
+  background: linear-gradient(
+    145.17deg,
+    rgba(196, 51, 51, 0.0864) 18.76%,
+    rgba(255, 255, 255, 0.0576) 77.74%
+  );
+  border-radius: 20px;
+  width: 1105px;
+  height: 347px;
+  position: relative;
+  margin-top: -489px;
+  margin-left: 122px;
+}
+
+.flexIcon {
+  display: flex;
+}
+
+.iconProf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgProf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 62px;
+  left: 45px;
+}
+
+.imgProf img:nth-child(1) {
+  width: 151px;
+  height: 151px;
+}
+
+.imgProf img:nth-child(2) {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  margin-top: -30px;
+  top: -90px;
+  left: 2px;
+}
+
+.iconProf h3 {
+  font-family: "Laviossa RUS";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+  top: 15px;
+  left: 30px;
+  line-height: 150%;
+  /* or 38px */
+
+  text-align: center;
+}
+
+.rightEllipse img:nth-child(1) {
+    position: relative;
+    z-index: 999;
+    top: -530px;
+    left: 440px;
+    width: 470px;
+    height: 1000px;
+}

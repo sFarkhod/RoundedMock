@@ -1,0 +1,64 @@
+.sertificateH1 {
+  display: flex;
+  color: white;
+  margin-left: 129px;
+  font-size: 40px;
+  margin-top: -235px;
+}
+
+.Sertificate {
+  margin-left: 244px;
+  margin-top: 125px;
+  display: flex;
+  gap: 35px;
+}
+
+.imageCardSertificate {
+  display: flex;
+  flex-direction: column;
+  width: 265px;
+  height: 360px;
+}
+
+.imageCardSertificate:nth-child(2) {
+  margin-top: -104px;
+}
+
+.oneLine {
+  position: relative;
+  top: -80.5px;
+  left: 565px;
+  width: 212px;
+  height: 1px;
+  border: none;
+  background-color: #d31b1b;
+}
+
+.imgSert {
+    display: flex;
+    flex-direction: column;
+    margin-top: -118px;
+    margin-left: 1140px;
+    width: 300px;
+    height: 400px;
+}
+
+.imgSert img:nth-child(1) {
+    width: 210px;
+    height: 30px;
+}
+
+.imgSert img:nth-child(2) {
+    position: relative;
+    top: 22px;
+    left: 22px;
+    width: 189px;
+    height: 340px;
+}
+
+.ellipseSert {
+    display: flex;
+    margin-top: -760px;
+    width: 470px;
+    height: 1000px;
+}
