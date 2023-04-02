@@ -25,6 +25,12 @@ body #root {
   overflow: hidden;
 }
 
+#root {
+  margin:auto;
+  max-width: 1360px;
+  overflow: hidden;
+}
+
 i {
   cursor: pointer;
 }
